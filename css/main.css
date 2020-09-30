@@ -1,0 +1,15 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  min-height: 100px;
+  background-color: pink;
+  border: solid 1px  #000;
+  text-align: center;
+  padding-top: 40px;
+}
